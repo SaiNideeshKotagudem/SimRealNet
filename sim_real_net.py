@@ -3,7 +3,7 @@ import tensorflow as tf
 from statsmodels.tsa.arima.model import ARIMA as StatsmodelsARIMA
 
 # ===== Confidence Evaluator =====
-class c_value:
+class sim2real:
 
     class ConfidenceEvaluator:
         def __init__(self, sigma_max=1.0, adaptive=True):
